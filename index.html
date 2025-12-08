@@ -35,6 +35,23 @@
   <script src="https://cdn.jsdelivr.net/gh/NikeGtag/data@main/gnmath.js"></script>
 </head>
 <body class="dark-mode">
+<!-- In your existing index.html -->
+
+<div id="content-area" style="display: none;">
+    <!-- ALL your existing HTML code goes here: headers, footers, content, links, etc. -->
+    <h1>Welcome Back!</h1>
+    <p>This content is now hidden until login is successful.</p>
+    <!-- Keep a logout button handy -->
+    <button onclick="handleLogout()">Log Out</button>
+</div>
+
+<!-- Add the login form somewhere convenient, usually above the content area -->
+<div id="login-area">
+    <h1>Please Log In</h1>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="handleLogin()">Log In</button>
+</div>
 
 <header>
   <div class="header-content">
@@ -104,3 +121,4 @@
 <script src="script.js"></script>
 </body>
 </html>
+
