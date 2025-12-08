@@ -1,0 +1,5 @@
+body { font-family: sans-serif; display: flex; justify-content: center; padding-top: 50px; }
+div { border: 1px solid #ccc; padding: 20px; border-radius: 5px; width: 300px; }
+input { display: block; width: 100%; padding: 10px; margin-bottom: 10px; }
+button { width: 100%; padding: 10px; background-color: #007bff; color: white; border: none; cursor: pointer; }
+.warning { color: red; font-size: 0.8em; margin-top: 10px; }
