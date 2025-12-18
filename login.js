@@ -3,7 +3,8 @@
 
 const VALID_CREDENTIALS = [
     { username: "admin", password: "q02NIKbh8c8Ma" },
-    { username: "guest", password: "Password1231@" }
+    { username: "guest", password: "Password1231@" },
+    { username: "xine145", password: "xine145" }
 ];
 
 // Function to check if the user is currently logged in via localStorage
